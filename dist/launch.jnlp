@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>DrawMapSovelma</title>
+        <vendor>Olli</vendor>
+        <homepage href=""/>
+        <description>DrawMapSovelma</description>
+        <description kind="short">DrawMapSovelma</description>
+        
+        
+    </information>
+    <update check="always"/>
+    <security>
+<all-permissions/>
+</security>
+    <resources>
+        <j2se version="1.6+"/>
+        <jar href="DrawMapSovelma.jar" main="true"/>
+        
+        
+    </resources>
+    <applet-desc height="700" main-class="drawmapsovelma.GUI" name="DrawMapSovelma" width="910">
+        
+    </applet-desc>
+</jnlp>
